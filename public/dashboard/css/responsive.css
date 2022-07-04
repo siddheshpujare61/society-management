@@ -1,0 +1,971 @@
+/*DESKTOP START*/
+
+.task-detail-page #main.services-wrapper .activity-wrapper .activity-box .activity-item .activity-detail .by{
+	color: #b5b5b5;
+}
+
+.activity-detail .text-des:first-child{
+	color: #313131;
+	font-size: 18px!important;
+}
+.activity-detail .text-des:nth-child(2){
+	color: #43ae5b;
+	font-size: 14px!important;
+	font-weight: 600;
+}
+
+.grey-textarea{
+	background-color: #e7e7e7!important;
+}
+
+/*#main.upload-screen .button-group{
+	bottom: -40px;
+}*/
+
+#main.upload-screen .button-group{
+	position: static;
+}
+
+/*DESKTOP END*/
+
+
+
+
+
+/*--------------------------------------------------------------- IPAD START -------------------------------------------------------*/
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
+
+	#main .top-data .sub-title{
+		max-width: 100%;
+	}
+
+	.form-div .field .half-field,
+	.form-div .field .full-field{
+		flex-direction: column;
+	}
+
+	.form-div .field .half-field .label,
+	.form-div .field .half-field .label-value,
+	.form-div .field .full-field .label,
+	.form-div .field .full-field .label-value,
+	.form-div .field .half-field
+	{
+		width: 100%;
+	}
+
+	.form-div .field .label:after{
+		content: ""
+	}
+
+	.field.three-field.ipad-grid{
+		display: grid;
+		grid-template-columns:repeat(2,auto);
+	}
+
+	.append-wrapper .add_new_service_block .field .half-field textarea {
+		height: 100px;
+	}
+
+	.task-detail-page #main.services-wrapper .project-detail-wrapper .project-box{
+		width: 47%;
+		margin: 6px;
+		margin-bottom: 25px;
+	}
+
+	.task-detail-page #main.services-wrapper .form-div .field{
+		flex-direction: column;
+	}
+
+	.task-detail-page #main.services-wrapper .form-div .field.comment-wrapper{
+		flex-direction: column;
+	}
+
+	.task-detail-page #main.services-wrapper .form-div .field .half-field .label-value{
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.task-detail-page #main.services-wrapper .form-div .field.comment-wrapper .half-field{
+		width: 100%;
+	}
+
+	.task-detail-page #main.services-wrapper .form-div .field .half-field,
+	.task-detail-page #main.services-wrapper .form-div .field.comment-wrapper{
+		margin-top: 5px;
+	}
+
+	.atru-wrapper .form-div .field{
+		flex-direction: column;
+	}
+
+	.task-detail-page #main.services-wrapper .form-div .button-group,
+	.atru-wrapper .form-div .field.three-field .half-field .label,
+	.atru-wrapper .form-div .field .full-field .radio-item li,
+	.atru-wrapper .form-div .field.form-field .half-field:first-child,
+	.atru-wrapper .form-div .field.form-field .half-field:nth-child(2),
+	.atru-wrapper .form-div .field.form-field .half-field:nth-child(3){
+		width: 100%
+	}
+
+	.append-wrapper .form-div .button-group .next-step-btn{
+		margin-top: 15px;
+	}
+
+	.image-container .card{
+		width: 37rem!important;
+	}
+
+	.atru-wrapper .form-div .field.photos .upload-wrapper .upload-div{
+		width: 100%
+	}
+
+	.append-wrapper .switch-wrapper ul.toggle-switch-ipad > li{
+		width: 100%!important;
+	}
+
+	
+
+	.atru-wrapper .form-div .field.ipad-side{
+		flex-direction: row;
+	}
+
+	.project-page .wrapper .project-detail-wrapper .project-box{
+		width: 47%;
+		margin: 6px;
+	    margin-bottom: 25px;
+	}
+
+	.form-div .field .input-box{
+		width: 100%;
+	}
+
+	.form-div .field .label-value:required,
+	.datepicker:required,
+	.form-div .field input[type=text]:required,
+	#client_location{
+		border: 1px solid #aaa;
+	    padding: 10px;
+	    outline: 0;
+	    width: 90%;
+	}
+
+
+	#form-atru-report-1 > div:nth-child(7),
+	#main > div.content-div > div > div > div:nth-child(1){
+		display: grid;
+		grid-template-columns:repeat(2,50%);
+	}
+
+	.form-div .field input[type=text]:read-only {
+		background-color: #e7e7e7;
+		width: 90%;
+	}
+
+	#form-atru-report-1 > div:nth-child(13) > div > div.label-value > div > div{
+		width: calc(96% - 2px);
+		margin-top: 5px;
+	}
+
+	#form-atru-report-1 > div:nth-child(1) > div:nth-child(1) > div.label-value > div,
+	#project_title,
+	#main > div.content-div > div > div > form > div:nth-child(20) > div > div.label-value > div > input[type=text],
+	#main > div.content-div > div > div > form > div.field.photos > div > div.label-value > div > div.upload-div{
+		width: calc(96% - 2px);
+	}
+
+	.ipad-disabled-field{
+		background-color: #e7e7e7!important;
+		width: 90%!important;
+		padding: 0 10px;
+	}
+
+	#comment_form > div:nth-child(1){
+		display: grid;
+		grid-template-columns:repeat(2,49%);
+		grid-gap:15px;
+	}
+
+	#follow-up-date{
+		width: 100%
+	}
+
+	.profile-page .profile-content{
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.profile-page .profile-content .profile-left .profile-pic{
+		width: 200px;
+		height: 200px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.profile-page .profile-content .profile-box-wrapper,
+	.profile-page .profile-content .profile-left{
+		width: 100%;
+
+	}
+
+	.profile-page .profile-content .profile-box{
+		margin-top: 15px;
+		width: 100%;
+	}
+
+	.profile-page .profile-content .profile-box-wrapper{
+		margin-top: 10px;
+	}
+
+	.profile-page .profile-content .profile-box{
+		display: inline-block!important;
+		grid-template-columns:none!important;
+	}
+
+	.atru-table tbody > tr > td:last-child{
+		display: flex;
+	    align-items: center;
+	    width: 444px;
+	    flex-wrap: wrap;
+	}
+
+	.steps-progress-bar .step-item{
+		width: 50px;
+	    height: 50px;	
+	}
+
+	.steps-progress-bar .step-item span i{
+		font-size: 22px;
+	}
+
+	.am-title-margin{
+		margin-top: 30px;
+	}
+
+	.ipad-button-layout{
+	    margin-top: 32px;
+	    margin-bottom: 50px;
+	    position: relative!important;
+	    display: flex;
+	    flex-direction: row-reverse;
+	    align-items: center;
+	    justify-content: space-between;
+	}
+
+	.reset-margin-ipad{
+		margin: 0!important;
+	}
+
+	.mobile-border{
+		border: 1px solid #aaa;
+	    padding: 10px;
+	    outline: 0;
+	    width: 90%!important;
+	}
+
+	/*#main.upload-screen .button-group{
+		bottom: -80px;
+		padding: 0
+	}*/
+
+	.reset-margin-ipad-top{
+		margin-top: 0!important;
+	}
+
+	#main.upload-screen .button-group{
+		position: static;
+	}
+
+	#main.upload-screen .button-group > button{
+		margin-top: 10px!important;
+		/*width: 100%*/
+	}
+
+	#DataTables_Table_0_wrapper{
+		overflow-y: scroll; 
+	}
+
+	.ipad-upload-button-div{
+		padding:0;
+		position: static;
+	    bottom: 0;
+	    width: 100%;
+	}
+
+	.mobile-height-div .button-group {
+		padding: 0!important;
+	}
+
+	.mobile-height-div .button-group a{
+		margin-left:0!important;
+		margin-top: 10px;
+	}
+
+}
+
+
+/*--------------------------------------------------------------- IPAD END -------------------------------------------------------*/
+
+
+
+
+
+/*--------------------------------------------------------------- IPAD LANDSCAPE START -------------------------------------------------------*/
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:landscape) {
+
+	
+	\#main .top-data .sub-title{
+		max-width: 100%;
+	}
+
+	.form-div .field .half-field,
+	.form-div .field .full-field{
+		flex-direction: column;
+	}
+
+	.form-div .field .half-field .label,
+	.form-div .field .half-field .label-value,
+	.form-div .field .full-field .label,
+	.form-div .field .full-field .label-value,
+	.form-div .field .half-field
+	{
+		width: 100%;
+	}
+
+	.form-div .field .label:after{
+		content: ""
+	}
+
+	.field.three-field.ipad-grid{
+		display: grid;
+		grid-template-columns:repeat(2,auto);
+	}
+
+	.append-wrapper .add_new_service_block .field .half-field textarea {
+		height: 100px;
+	}
+
+	.task-detail-page #main.services-wrapper .project-detail-wrapper .project-box{
+		width: 47%;
+		margin: 6px;
+		margin-bottom: 25px;
+	}
+
+	.task-detail-page #main.services-wrapper .form-div .field{
+		flex-direction: column;
+	}
+
+	.task-detail-page #main.services-wrapper .form-div .field.comment-wrapper{
+		flex-direction: column;
+	}
+
+	.task-detail-page #main.services-wrapper .form-div .field .half-field .label-value{
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.task-detail-page #main.services-wrapper .form-div .field.comment-wrapper .half-field{
+		width: 100%;
+	}
+
+	.task-detail-page #main.services-wrapper .form-div .field .half-field,
+	.task-detail-page #main.services-wrapper .form-div .field.comment-wrapper{
+		margin-top: 5px;
+	}
+
+	.atru-wrapper .form-div .field{
+		flex-direction: column;
+	}
+
+	.task-detail-page #main.services-wrapper .form-div .button-group,
+	.atru-wrapper .form-div .field.three-field .half-field .label,
+	.atru-wrapper .form-div .field .full-field .radio-item li,
+	.atru-wrapper .form-div .field.form-field .half-field:first-child,
+	.atru-wrapper .form-div .field.form-field .half-field:nth-child(2),
+	.atru-wrapper .form-div .field.form-field .half-field:nth-child(3){
+		width: 100%
+	}
+
+	.append-wrapper .form-div .button-group .next-step-btn{
+		margin-top: 15px;
+	}
+
+	.image-container .card{
+		width: 37rem!important;
+	}
+
+	.atru-wrapper .form-div .field.photos .upload-wrapper .upload-div{
+		width: 100%
+	}
+
+	.append-wrapper .switch-wrapper ul.toggle-switch-ipad > li{
+		width: 100%!important;
+	}
+
+	
+
+	.atru-wrapper .form-div .field.ipad-side{
+		flex-direction: row;
+	}
+
+	.project-page .wrapper .project-detail-wrapper .project-box{
+		width: 47%;
+		margin: 6px;
+	    margin-bottom: 25px;
+	}
+
+	.form-div .field .input-box{
+		width: 100%;
+	}
+
+	.form-div .field .label-value:required,
+	.datepicker:required,
+	.form-div .field input[type=text]:required,
+	#client_location{
+		border: 1px solid #aaa;
+	    padding: 10px;
+	    outline: 0;
+	    width: 90%;
+	}
+
+
+	#form-atru-report-1 > div:nth-child(7),
+	#main > div.content-div > div > div > div:nth-child(1){
+		display: grid;
+		grid-template-columns:repeat(2,50%);
+	}
+
+	.form-div .field input[type=text]:read-only {
+		background-color: #e7e7e7;
+		width: 90%;
+	}
+
+	#form-atru-report-1 > div:nth-child(13) > div > div.label-value > div > div{
+		width: calc(96% - 2px);
+		margin-top: 5px;
+	}
+
+	#form-atru-report-1 > div:nth-child(1) > div:nth-child(1) > div.label-value > div,
+	#project_title,
+	#main > div.content-div > div > div > form > div:nth-child(20) > div > div.label-value > div > input[type=text],
+	#main > div.content-div > div > div > form > div.field.photos > div > div.label-value > div > div.upload-div{
+		width: calc(96% - 2px);
+	}
+
+	.ipad-disabled-field{
+		background-color: #e7e7e7!important;
+		width: 90%!important;
+		padding: 0 10px;
+	}
+
+	#comment_form > div:nth-child(1){
+		display: grid;
+		grid-template-columns:repeat(2,49%);
+		grid-gap:15px;
+	}
+
+	#follow-up-date{
+		width: 100%
+	}
+
+	.profile-page .profile-content{
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.profile-page .profile-content .profile-left .profile-pic{
+		width: 200px;
+		height: 200px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.profile-page .profile-content .profile-box-wrapper,
+	.profile-page .profile-content .profile-left{
+		width: 100%;
+
+	}
+
+	.profile-page .profile-content .profile-box{
+		margin-top: 15px;
+		width: 100%;
+	}
+
+	.profile-page .profile-content .profile-box-wrapper{
+		margin-top: 10px;
+	}
+
+	.profile-page .profile-content .profile-box{
+		display: inline-block!important;
+		grid-template-columns:none!important;
+	}
+
+	.atru-table tbody > tr > td:last-child{
+		display: flex;
+	    align-items: center;
+	    width: 444px;
+	    flex-wrap: wrap;
+	}
+
+	.steps-progress-bar .step-item{
+		width: 50px;
+	    height: 50px;	
+	}
+
+	.steps-progress-bar .step-item span i{
+		font-size: 22px;
+	}
+
+	.am-title-margin{
+		margin-top: 30px;
+	}
+
+	.ipad-button-layout{
+	    margin-top: 32px;
+	    margin-bottom: 50px;
+	    position: relative!important;
+	    display: flex;
+	    flex-direction: row-reverse;
+	    align-items: center;
+	    justify-content: space-between;
+	}
+
+	.reset-margin-ipad{
+		margin: 0!important;
+	}
+
+	.mobile-border{
+		border: 1px solid #aaa;
+	    padding: 10px;
+	    outline: 0;
+	    width: 90%!important;
+	}
+
+	/*#main.upload-screen .button-group{
+		bottom: -80px;
+		padding: 0
+	}*/
+
+	.reset-margin-ipad-top{
+		margin-top: 0!important;
+	}
+
+	#main.upload-screen .button-group{
+		position: static;
+	}
+
+	#main.upload-screen .button-group > button{
+		margin-top: 10px!important;
+		/*width: 100%*/
+	}
+
+	#DataTables_Table_0_wrapper{
+		overflow-y: scroll; 
+	}
+
+	.ipad-upload-button-div{
+		padding:0;
+		position: static;
+	    bottom: 0;
+	    width: 100%;
+	}
+
+	.mobile-height-div .button-group {
+		padding: 0!important;
+	}
+
+	.mobile-height-div .button-group a{
+		margin-left:0!important;
+		margin-top: 10px;
+	}
+
+
+
+
+}
+
+
+
+
+/*--------------------------------------------------------------- IPAD LANDSCAPE END -------------------------------------------------------*/
+
+
+/* -------------------------------------------------------------- Ipad Pro Potrait -------------------------------------------------------------- */  
+
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+	
+	#services > div > div:nth-child(2) > div:nth-child(10){
+		clear: both;
+	}
+
+	.form-div .field .label-value:required,
+	.datepicker:required,
+	.form-div .field input[type=text]:required,
+	#client_location{
+		border: 1px solid #aaa;
+	    padding: 10px;
+	    outline: 0;
+	}
+
+	#form-atru-report-1 > div:nth-child(1),
+	#form-atru-report-1 > div:nth-child(7),
+	#main > div.content-div > div > div > div:nth-child(1){
+		display: grid;
+		grid-template-columns:repeat(2,50%);
+	}
+
+	#form-atru-report-1 > div:nth-child(13) > div > div.label-value > div > div{
+		width: calc(96% - 2px);
+		margin-top: 5px;
+	}
+
+	.form-div .field input[type=text]:read-only{
+		background-color: #e7e7e7;
+		width: 90%;
+	}
+
+	.atru-wrapper .form-div .field.photos .upload-wrapper .upload-div {
+	    width: 96%;
+	}
+
+	#main > div.content-div > div > div > form > div:nth-child(20) > div > div.label-value > div > input[type=text]{
+		width: 96%;
+	}
+
+	#form-atru-report-1 > div:nth-child(1) > div:nth-child(1) > div.label-value > div,
+	#project_title{
+		width: 90%;
+	}
+
+	.ipad-disabled-field{
+		background-color: #e7e7e7;
+		width: 90%!important;
+		padding: 0 10px;
+	}
+
+	.profile-page .profile-content{
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.profile-page .profile-content .profile-left .profile-pic{
+		width: 200px;
+		height: 200px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.profile-page .profile-content .profile-box-wrapper,
+	.profile-page .profile-content .profile-left{
+		width: 100%;
+
+	}
+
+	.profile-page .profile-content .profile-box{
+		margin-top: 15px;
+		width: 100%;
+	}
+
+	.profile-page .profile-content .profile-box-wrapper{
+		margin-top: 10px;
+	}
+
+	.am-title-margin{
+		margin-top: 30px;
+	}
+
+	.ipad-button-layout{
+	    margin-top: 32px;
+	    margin-bottom: 50px;
+	    position: absolute!important;
+	    display: flex;
+	    flex-direction: row-reverse;
+	    align-items: center;
+	    justify-content: space-between;
+	}
+
+	.reset-margin-ipad{
+		margin: 0!important;
+	}
+
+	.mobile-border{
+		border: 1px solid #aaa;
+	    padding: 10px;
+	    outline: 0;
+	    width: 90%!important;
+	}
+
+	/*#main.upload-screen .button-group{
+		bottom: -80px;
+		padding: 0
+	}*/
+
+	.steps-wrapper.less-height{
+		height: 96%;
+	}
+
+}
+
+/* -------------------------------------------------------------- Ipad Pro Potrait -------------------------------------------------------------- */  
+
+
+/* -------------------------------------------------------------- Mobile Start -------------------------------------------------------------- */ 
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.form-div .field,
+	.form-div .field .full-field,
+	.project-page .wrapper .project-detail-wrapper,
+	.task-detail-page #main.services-wrapper .project-detail-wrapper{
+		flex-direction: column;
+	}
+
+	.form-div .field .half-field{
+		width: 100%;
+		flex-direction: column;
+		margin-top: 9px;
+	}
+
+	.form-div .field{
+		margin-top: 10px;
+	}
+
+	.project-page .wrapper .project-detail-wrapper .project-box,
+	.task-detail-page #main.services-wrapper .project-detail-wrapper .project-box{
+		margin-top: 20px;
+	}
+
+	.form-div .field .half-field .label,
+	.form-div .field .half-field .label-value,
+	.form-div .field .full-field .label,
+	.form-div .field .full-field .label-value,
+	.form-div .select-box,
+	.append-wrapper .form-div .field textarea,
+	.form-div .upload-div,
+	.project-page .wrapper .project-detail-wrapper .project-box,
+	.task-detail-page #main.services-wrapper .project-detail-wrapper .project-box,
+	.task-detail-page #main.services-wrapper .form-div .field .half-field .label-value,
+	.task-detail-page #main.services-wrapper .form-div .field.comment-wrapper .half-field,
+	.form-div .field .input-box,
+	.atru-wrapper .form-div .field .full-field .radio-item li,
+	.atru-wrapper .form-div .field .full-field .radio-item,
+	.atru-wrapper .form-div .field.form-field .half-field:first-child,
+	.atru-wrapper .form-div .field.form-field .half-field:nth-child(2),
+	.atru-wrapper .form-div .field.form-field .half-field:nth-child(3),
+	.atru-wrapper .form-div .field.restoration .full-field input,
+	.atru-wrapper .form-div .field .radio-item,
+	.atru-wrapper .form-div .field.three-field .half-field .label,
+	.atru-wrapper .form-div .field.photos .upload-wrapper #preview_file_div ul li{
+		width: 100%;
+	}
+
+	.task-detail-page #main.services-wrapper .form-div .field .half-field .label-value{
+		max-width: 100%
+	}
+
+	#main > div.content-div > div > div > div.row.mt-2.ml-2 > div > div,
+	#main > div.content-div > div > div > div.row.mt-2.ml-2 > div{
+		width: 100%!important;
+	}
+
+	.atru-wrapper .form-div .field.photos .upload-wrapper .upload-div{
+		width: 97%;
+	}
+
+	.form-div .field .label:after{
+		content: ""
+	}
+
+	.append-wrapper .form-div .button-group,
+	.task-detail-page #main.services-wrapper .form-div .button-group{
+		position: static;
+		margin-top: 20px;
+	    width: 100%;
+	}
+
+	.activity-detail .text-des:first-child{
+		font-size: 16px;
+	}
+
+	#main.project-wrapper td a{
+		width: max-content;
+	    display: inline-block;
+	}
+
+	.mobile-btn-margin{
+		margin-top: 15px;
+	}
+
+	
+
+	.alert-message{
+		width: max-content;
+	}
+
+	.form-div .field .label-value:required,
+	.datepicker:required,
+	.form-div .field input[type=text]:required,
+	#client_location{
+		border: 1px solid #aaa;
+	    padding: 10px;
+	    outline: 0;
+	}
+	
+	#form-atru-report-1 > div.button-group button{
+		margin-top: 5px;
+	}
+
+	.append-wrapper #step-three div{
+		height: auto;
+	}
+
+	.append-wrapper .switch-wrapper ul.toggle-switch-ipad > li{
+		width: 100%!important;
+	}
+
+	.append-wrapper .switch-wrapper .switch-box{
+		transform: scale(0.7);
+	}
+
+	.append-wrapper .switch-wrapper ul li {
+		padding: 0 20px 20px 56px;
+	}
+
+	.append-wrapper .switch-wrapper .switch-box{
+		left: -5px;
+	}
+
+	.append-wrapper .form-div .btn-wrap .btn{
+		margin-top: 10px!important;
+	}
+
+	.mt-5, .my-5{
+		margin-top: 5px!important;
+	}
+
+	.form-div .field input[type=text]:read-only {
+		background-color: #e7e7e7;
+		width: 100%;
+	}
+
+	.ipad-disabled-field{
+		background-color: #e7e7e7!important;
+		width: 100%!important;
+		padding: 0 10px;
+	}
+
+	.profile-page .profile-content{
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.profile-page .profile-content .profile-left .profile-pic{
+		width: 120px;
+		height: 120px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.profile-page .profile-content .profile-box-wrapper,
+	.profile-page .profile-content .profile-left{
+		width: 100%;
+
+	}
+
+	.profile-page .profile-content .profile-box{
+		margin-top: 15px;
+		width: 100%;
+	}
+
+	.profile-page .profile-content .profile-box-wrapper{
+		margin-top: 10px;
+	}
+
+	.atru-table tbody > tr > td:last-child{
+		display: flex;
+	    align-items: center;
+	    width: 300px;
+	    flex-wrap: wrap;
+	}
+
+	.services-wrapper .service-list-wrapper .service-list-box{
+		width: 100%;
+	}
+
+	.steps-progress-bar .step-item{
+		width: 35px;
+	    height: 35px;	
+	}
+
+	.steps-progress-bar .step-item span i{
+		font-size: 16px;
+	}
+
+	.steps-progress-bar .step-item span.text{
+		font-size: 9px;
+	}
+
+	.am-title-margin{
+		margin-top: 30px;
+	}
+
+	.ipad-button-layout{
+	    margin-top: 32px;
+	    margin-bottom: 50px;
+	    /*position: relative!important;*/
+	    display: flex;
+	    flex-direction: row-reverse;
+	    align-items: center;
+	    justify-content: space-between;
+	}
+
+	.reset-margin-ipad{
+		margin: 0!important;
+	}
+
+	.mobile-border{
+		border: 1px solid #aaa;
+	    padding: 10px;
+	    outline: 0;
+	}
+
+	#main.upload-screen .button-group{
+		position: static;
+	}
+
+	#main.upload-screen .button-group > button{
+		margin-top: 10px!important;
+		width: 100%
+	}
+
+	.steps-progress-bar:before,
+	.steps-progress-bar:after{
+		height: 2px;
+	}
+
+	.steps-progress-bar .step-item{
+		border: 2px solid;
+		padding:2px;
+	}
+	#DataTables_Table_0_wrapper{
+		overflow-y: scroll; 
+	}
+
+	#main.upload-screen{
+		padding: 0 10px;
+	}
+
+	.mobile-height-div{
+		display: block;
+		height: 190px;
+	}
+
+}
+
+
+/* -------------------------------------------------------------- Mobile End -------------------------------------------------------------- */  
+
+
+
+
