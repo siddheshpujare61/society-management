@@ -1,7 +1,8 @@
-  <script src="{{ asset('dashboard/js/jquery.min.js') }}" type="text/javascript"></script>
-  <script src="{{ asset('dashboard/js/bootstrap.min.js') }}" type="text/javascript"></script>
-  <script src="{{ asset('dashboard/js/dataTables.bootstrap4.min.js') }}" type="text/javascript"></script>
-  <script src="{{ asset('dashboard/js/jquery-ui.js') }}" type="text/javascript"></script>
-  <script src="{{ asset('validationjs/jquery.js') }}"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".datepicker").datepicker();
+});  
+</script>
 </body>
 </html>

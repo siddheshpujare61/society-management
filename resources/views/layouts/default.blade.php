@@ -9,6 +9,7 @@
   <link rel="icon" href="{{ asset('web/images/favicon.png')}}" type="image/png" />
   <link rel="apple-touch-icon" href="{{ asset('web/images/favicon.png')}}" />
   <link rel="preload stylesheet" href="{{ asset('web/css/bootstrap.min.css') }}" as="style" type="text/css" />
+
   @yield('styles')
 </head>
 <body>

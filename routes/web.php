@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Admin\SocietyController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,3 +29,9 @@ Route::get('/admin/dashboard', function () {
 Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [LoginController::class, 'login'])->name('login');
 Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
+
+Route::middleware('auth')->group(function () { 
+	 Route::prefix('admin')->group(function () {
+	 	Route::resource('/society', SocietyController::class);	
+	 });
+});

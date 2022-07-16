@@ -983,6 +983,7 @@ header .search-wrapper .search-close-btn {
     display: block;
     margin: 0;
     padding: 0 10px;
+    border: 1px solid #aaa;
 }
 .form-div .field input::-webkit-inner-spin-button,
 .form-div .field input::-webkit-outer-spin-button {
@@ -1002,10 +1003,12 @@ header .search-wrapper .search-close-btn {
     padding: 5px 0;
 }
 .form-div .select-box {
-    width: 90%;
+    width: 90%;    
 }
 .form-div .select-box select {
     width: 100%;
+    border: 1px solid #aaa;
+    padding: 5px;
 }
 .form-div .select-box .select2-container,
 .form-div .select-box .select2-container .select2-search__field {
@@ -1751,6 +1754,7 @@ header .search-wrapper .search-close-btn {
 }
 #main.project-wrapper {
     display: block;
+    width: 100%;
 }
 #main.project-wrapper a {
     font-size: 0.8rem;
@@ -1778,7 +1782,7 @@ header .search-wrapper .search-close-btn {
 }
 #main.project-wrapper .content-div {
     height: auto;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
 }
 #main.project-wrapper .content-div > div {
     width: calc(100% - 15px);
@@ -2016,14 +2020,15 @@ header .search-wrapper .search-close-btn {
 }
 #main.append-wrapper {
     display: block;
+    width: 100%;
 }
 #main.append-wrapper .content-div {
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
 }
 .append-wrapper .steps-wrapper {
     width: 100%;
-    height: 100%;
-    position: relative;
+    /*height: 100%;
+    position: relative;*/
 }
 .append-wrapper .steps-wrapper #steps-progress {
     background: #e2e2e2;
@@ -2215,7 +2220,7 @@ header .search-wrapper .search-close-btn {
     background: 0 0;
 }
 .append-wrapper .form-div .field textarea {
-    width: calc(96% - 2px);
+    width: calc(100% - 2px);
     height: 85px;
 }
 .append-wrapper .form-div .upload-div label {
@@ -4699,4 +4704,38 @@ ul[id^="select2-service-task-"].select2-results__option--highlighted[aria-select
     border-radius: 50%;
     border: 2px solid #fff;
     margin: 0 10px 0 0;
+}
+
+
+/* Style the list */
+ul.breadcrumb {
+  padding: 5px 0 0 0;
+  list-style: none;
+  background-color: #F4F6F9;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #17a2b8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
 }
