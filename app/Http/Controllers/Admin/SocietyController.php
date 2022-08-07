@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Society;
 use Illuminate\Http\Request;
+use Session;
 
 class SocietyController extends Controller
 {
@@ -141,5 +142,18 @@ class SocietyController extends Controller
      
         return redirect()->route('society.index')
                         ->with('success','Society deleted successfully');
+    }
+
+    public function setGlobal(Request $request){
+        echo $society_id = $request->input("id");
+         if($society_id!='' && $society_id="null"){
+            //Session::put("g_society_id",$society_id);
+            $request->session()->put("g_society_id", $society_id);     
+         }else{
+            $request->session()->forget("g_society_id");
+         }
+        // print_r( Session::all());
+         return true;
+            
     }
 }
