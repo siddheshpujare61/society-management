@@ -33,7 +33,7 @@ Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 Route::middleware('auth')->group(function () { 
 	 Route::prefix('admin')->group(function () {
 	 	Route::resource('/society', SocietyController::class);	
-		Route::post('/society/setGlobal',[SocietyController::class,'setGlobal']);
+		Route::post('/society/set-global-session',[SocietyController::class,'setGlobalSession']);
 	 });
 
 });

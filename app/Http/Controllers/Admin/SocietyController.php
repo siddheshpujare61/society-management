@@ -144,16 +144,8 @@ class SocietyController extends Controller
                         ->with('success','Society deleted successfully');
     }
 
-    public function setGlobal(Request $request){
-        echo $society_id = $request->input("id");
-         if($society_id!='' && $society_id="null"){
-            //Session::put("g_society_id",$society_id);
-            $request->session()->put("g_society_id", $society_id);     
-         }else{
-            $request->session()->forget("g_society_id");
-         }
-        // print_r( Session::all());
-         return true;
-            
+    public function setGlobalSession(Request $request){
+        $society_id = $request->input("id");
+        Session::put('g_society_id', $society_id);        
     }
 }

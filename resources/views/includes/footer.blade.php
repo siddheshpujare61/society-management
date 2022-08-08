@@ -11,16 +11,16 @@ function setGlobal(value){
 	var queryString = "id="+value;
 	$.ajax({
 		headers: {
-    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-  },
-		url:"society/setGlobal", type: "post", data: queryString, cache: false,
+		    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+		  },
+		url:"society/set-global-session", type: "post", data: queryString, cache: false,
             error: function()
 			{
               alert("something wrong!!");
 			},
             success: function (response)
             {  
-				alert(response);
+				console.log(response);
 				location.reload();		
             }
 	});
